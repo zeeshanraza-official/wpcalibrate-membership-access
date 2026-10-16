@@ -1,0 +1,32 @@
+# Development and IDE Environments
+.agents/
+.claude/
+.gemini/
+.idea/
+.vscode/
+.stubs/
+
+# AI Planning & Workspace Tracking (Kept Local)
+CLAUDE.md
+PROJECT_MEMORY.md
+TROUBLESHOOTING.md
+CHANGELOG_AI.md
+TODO_AI.md
+AGENTS.md
+
+# Automated Test Suite & Local Helper Scripts
+tests/
+scratch/
+deploy-ftp.ps1
+ftp-config.json
+package-zip.ps1
+verify-zip.ps1
+
+# Local Build Outputs & Archives
+*.zip
+staging_build/
+
+# OS Artifacts
+Thumbs.db
+Desktop.ini
+.DS_Store
